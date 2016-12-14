@@ -27,51 +27,78 @@ Objetivos Particulares:
 -Conocer, comprender y aplicar las soluciones que normalmente se aplican a los problemas que se presentan en un sistema operativo moderno.
 
 #Contenidos Mímimos#
+Kernel y Procesos. Administración de Memória. Concurrencia. Persistencia.
 
 #Programa Sintético#
 Nucleos (Kernels) y Procesos. La Abstracción del Nucleo (Kernel). La Interfase de Programación. Administracion de Memoria. Memoria Real, Memoria Virtual y Memoria Cache. Aplicaciones de Administraciòn de Memoria. 
 Concurrencia y Threads. Sincronizaciòn de acceso a Objetos Compartidos. Algortimos de Scheduling. Sistemas de Archivos. Dispositivos de Almacenamiento. Archivos y Directorios
 
-
 #Programa Analítico#
 
-Unidad 1:the Kernel Abstraction,The process concept, Dual-mode operation,Safe control transfer,Case Study:Booting an operating system kernel, Case Study: Virtual machines.
+Unidad 1:
+
+Introducción. Que es un sistema Operativo, Criterios de Evaluación, Historia de los sistemas operativos.
+
+Unidad 2:
+
+La abstracciòn del Kernel,El concepto de Proceso, Modo de Operaciòn dual,Transferencia de control segura,Caso de estudio:Booteando un kernel de un sistema operativo, Caso de Estudio: Maquinas Virtuales.
+
+Unidad 3:
+La interfase de programación, gestion de Procesos, Input/output, Caso de Estudio: Implemención de un shell. Caso de Estudio: Comunicación interproceso, Estructura de un sistema Operativo.
 
 
-Unidad 2:The Programming Interface, Process management, Input/output, Case Study: Implementing a shell , Case Study: Interprocess communication ,Operating system structure.
+Unidad 4:
+
+El concepto de Address translation concept, Paginación y Segmentación, Efficient address translation, Software address translation.
 
 
-Unidad 3:Address translation concept, Segmentation and Paging, Efficient address translation, Software address translation.
+Unidad 5:
+
+Memoria Caché y Memoria Virtual, El concepto de Cache, Hardware cache management, Memory mapped files y Memoria Virtualy.
 
 
-Unidad 4:Caching and Virtual Memory, Cache concept: when it works and when it doesn’t, Hardware cache management, Memory mapped files and virtual memory.
+Unidad 6:
+
+Zero copy input/output, Copy on write, Process checkpointing, Recoverable memory, Information flow control, External pagers, Virtual machine address translation.
 
 
-Unidad 5:Zero copy input/output, Copy on write, Process checkpointing, Recoverable memory, Information flow control, External pagers, Virtual machine address translation.
+Unidad 7:
+
+Threads: Abstracción e Interface, Una Simple API y un ejemplo, Thread internals, detalles de Implementación, I/O Asincrónica y programación dirigida por eventos.
 
 
-Unidad 6:Threads: Abstraction and interface, Simple API and example, Thread internals, Implementation details, Asynchronous I/O and event-driven programming, 
+Unidad 8:
+
+Sincronizacindo el Acceso a Objetos Compartidos, Desafios, Objetos Compartidos y sincronización de variables, Lock: Exclusión Mùtua, Condition variables: Waiting for a change, Implementando sincronización de objetos, Diseño e implementaciòn de objetos compartidos.
 
 
-Unidad 7:Synchronizing Access to Shared Objects,Challenges,Shared objects and synchronization variables, Lock: Mutual Exclusion, Condition variables: Waiting for a change, Implementing synchronization objects, Designing and implementing shared objects.
+Unidad 9:
+
+Sincronización multi-objeto, Deadlock, Enfoques alternativos de sincronización.
 
 
-Unidad 8:Multi-object synchronization, Deadlock, Alternative approaches to synchronization,
+Unidad 10:
+
+Planificación Uniprocesador , Planificación Multiprocesador, Planificación Energy-aware , Planificación de Tiempo Real, Teoria de Colas, Caso de estudio.
 
 
-Unidad 9:Uniprocessor scheduling, Multiprocessor scheduling, Energy-aware scheduling, Real-time scheduling, Queuing theory, Case Study: data center servers.
+Unidad 11:
+
+Introducciòn a los sistemas de Archivos, El sistema de Archivos como abstracciòn, API , Capas de Software. 
 
 
-Unidad 10:Introduction and Overview, The file system abstraction, API,3 Software layers, 
+Unidad 12:
 
-
-Unidad 11: Magnetic disk, Flash storage,Files and Directories, Accessing files: API and caching, Files: Placing and finding data,Directories: Naming data, Putting it all together: File access in FFS, Alternatives to file systems.
+Discos Magneticos, Almacenamiento Flash, Archivos y Directorios,Acceso a Archivos: API and caching, Archivos: Localizaciòn y búsqueda de datos, Directorios: Poniendole nombre a los datos, Sistemas de archivos Alternativos.
 
 #Bibliografía#
+
 
 #Régimen de Cursada#
 
 
+
 #Calendario de Clases#
+
 
 #Calendario de Evaluaciones#
