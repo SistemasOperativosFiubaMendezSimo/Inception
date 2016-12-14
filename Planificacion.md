@@ -37,59 +37,40 @@ Concurrencia y Threads. Sincronizaciòn de acceso a Objetos Compartidos. Algorti
 
 **Unidad 1:**
 
-Introducción. Que es un sistema Operativo, Criterios de Evaluación, Historia de los sistemas operativos.
+Introducción. Qué es un sistema Operativo. Criterios de Evaluación. Historia de los sistemas operativos.
 
 **Unidad 2:**
 
-La abstracciòn del Kernel,El concepto de Proceso, Modo de Operaciòn dual,Transferencia de control segura,Caso de estudio:Booteando un kernel de un sistema operativo, Caso de Estudio: Maquinas Virtuales.
+La abstracciòn del Kernel. El concepto de Proceso. La abstracción del Proceso. Estados de un Proceso. Estruturas de datos. Modo de Operación dual. Transferencia de control segura. Caso de estudio: Booteando un kernel de un sistema operativo. Caso de Estudio: Maquinas Virtuales.
 
 **Unidad 3:**
-La interfase de programación, gestion de Procesos, Input/output, Caso de Estudio: Implemención de un shell. Caso de Estudio: Comunicación interproceso, Estructura de un sistema Operativo.
+
+El API de Procesos. Gestión de Procesos. Input/Output. Caso de Estudio: Implemención de un shell. Caso de Estudio: Comunicación Interproceso. Estructura de un sistema Operativo. 
 
 
 **Unidad 4:**
 
-El concepto de Address translation concept, Paginación y Segmentación, Efficient address translation, Software address translation.
+Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
 
 
 **Unidad 5:**
 
-Memoria Caché y Memoria Virtual, El concepto de Cache, Hardware cache management, Memory mapped files y Memoria Virtualy.
 
+La Abstracción del Espacio de Memoria. El API de Memoria. El Concepto de Address Translation. Paginación y Segmentación. Administración de Espacio Libre de Memoria. Efficient address translation. Software address translation. Memoria Física. Memoria Caché. El Concepto de Cache. Gestión de memoria Cache. Memoria Virtual VAX / VMS.
 
 **Unidad 6:**
 
-Zero copy input/output, Copy on write, Process checkpointing, Recoverable memory, Information flow control, External pagers, Virtual machine address translation.
+Introducción al concepto de Concurrencia. El concepto de Thread. La abstracción de Threads. El API de Threads. Creación de threads. Un Thread por Dentro. Detalles de Implementación. I/O Asincrónica y programación dirigida por eventos. Locks:Idea Básica. Estructuras de Datos basadas en Locks. Sincronización del Acceso a Objetos Compartidos. Objetos Compartidos y Sincronización de Variables. Condition variables. Exclusión Mútua. Semaforos. Problemas Comunes de Concurrencia. Implementación de sincronización de objetos. Diseño e implementaciòn de objetos compartidos. Sincronización multi-objeto. Deadlock. Enfoques alternativos de sincronización.
 
 
 **Unidad 7:**
 
-Threads: Abstracción e Interface, Una Simple API y un ejemplo, Thread internals, detalles de Implementación, I/O Asincrónica y programación dirigida por eventos.
+Introducción a los Sistemas de Archivos. La abstracción del Sistema de Archivos, El API del Sistema de Archivos. Capas de Software. Discos Magneticos. Redundant Array of Inexpensive Disks (RAID). Almacenamiento Flash. Archivos y Directorios. El API de Archivos. Archivos: Localización y búsqueda de datos, Directorios: Poniendole nombre a los datos. FFS. Sistemas de archivos Alternativos.
 
 
 **Unidad 8:**
 
-Sincronizacindo el Acceso a Objetos Compartidos, Desafios, Objetos Compartidos y sincronización de variables, Lock: Exclusión Mùtua, Condition variables: Waiting for a change, Implementando sincronización de objetos, Diseño e implementaciòn de objetos compartidos.
 
-
-**Unidad 9:**
-
-Sincronización multi-objeto, Deadlock, Enfoques alternativos de sincronización.
-
-
-**Unidad 10:**
-
-Planificación Uniprocesador , Planificación Multiprocesador, Planificación Energy-aware , Planificación de Tiempo Real, Teoria de Colas, Caso de estudio.
-
-
-**Unidad 11:**
-
-Introducciòn a los sistemas de Archivos, El sistema de Archivos como abstracciòn, API , Capas de Software. 
-
-
-**Unidad 12:**
-
-Discos Magneticos, Almacenamiento Flash, Archivos y Directorios,Acceso a Archivos: API and caching, Archivos: Localizaciòn y búsqueda de datos, Directorios: Poniendole nombre a los datos, Sistemas de archivos Alternativos.
 
 #Bibliografía#
 *ANDERSON, Thomas; DAHLIN, Michael. **Operating Systems: Principles and Practice**. Recursive books, 2012.
