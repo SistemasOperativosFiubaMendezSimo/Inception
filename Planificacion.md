@@ -1,6 +1,6 @@
 #Objetivos#
 
-Objetivos generales:
+** Objetivos generales: **
 
 
 -Conocer, estudiar y describir los objetivos, servicios, mecanismos y funciones de un sistema operativo moderno. Estos se dividen en 4 bloques fundamentales:
@@ -19,7 +19,7 @@ Objetivos generales:
 
 -Conocer, utilizar e implementar las herramientas más comunes que proveen los sistemas operativos modernos.
 
-Objetivos Particulares:
+** Objetivos Particulares: **
 
 -Conocer, estudiar y utilizar los algoritmos y estructuras de datos más utilizados en la contrucción de sistemas operativos modernos.
 
@@ -35,65 +35,70 @@ Concurrencia y Threads. Sincronizaciòn de acceso a Objetos Compartidos. Algorti
 
 #Programa Analítico#
 
-Unidad 1:
+**Unidad 1:**
 
 Introducción. Que es un sistema Operativo, Criterios de Evaluación, Historia de los sistemas operativos.
 
-Unidad 2:
+**Unidad 2:**
 
 La abstracciòn del Kernel,El concepto de Proceso, Modo de Operaciòn dual,Transferencia de control segura,Caso de estudio:Booteando un kernel de un sistema operativo, Caso de Estudio: Maquinas Virtuales.
 
-Unidad 3:
+**Unidad 3:**
 La interfase de programación, gestion de Procesos, Input/output, Caso de Estudio: Implemención de un shell. Caso de Estudio: Comunicación interproceso, Estructura de un sistema Operativo.
 
 
-Unidad 4:
+**Unidad 4:**
 
 El concepto de Address translation concept, Paginación y Segmentación, Efficient address translation, Software address translation.
 
 
-Unidad 5:
+**Unidad 5:**
 
 Memoria Caché y Memoria Virtual, El concepto de Cache, Hardware cache management, Memory mapped files y Memoria Virtualy.
 
 
-Unidad 6:
+**Unidad 6:**
 
 Zero copy input/output, Copy on write, Process checkpointing, Recoverable memory, Information flow control, External pagers, Virtual machine address translation.
 
 
-Unidad 7:
+**Unidad 7:**
 
 Threads: Abstracción e Interface, Una Simple API y un ejemplo, Thread internals, detalles de Implementación, I/O Asincrónica y programación dirigida por eventos.
 
 
-Unidad 8:
+**Unidad 8:**
 
 Sincronizacindo el Acceso a Objetos Compartidos, Desafios, Objetos Compartidos y sincronización de variables, Lock: Exclusión Mùtua, Condition variables: Waiting for a change, Implementando sincronización de objetos, Diseño e implementaciòn de objetos compartidos.
 
 
-Unidad 9:
+**Unidad 9:**
 
 Sincronización multi-objeto, Deadlock, Enfoques alternativos de sincronización.
 
 
-Unidad 10:
+**Unidad 10:**
 
 Planificación Uniprocesador , Planificación Multiprocesador, Planificación Energy-aware , Planificación de Tiempo Real, Teoria de Colas, Caso de estudio.
 
 
-Unidad 11:
+**Unidad 11:**
 
 Introducciòn a los sistemas de Archivos, El sistema de Archivos como abstracciòn, API , Capas de Software. 
 
 
-Unidad 12:
+**Unidad 12:**
 
 Discos Magneticos, Almacenamiento Flash, Archivos y Directorios,Acceso a Archivos: API and caching, Archivos: Localizaciòn y búsqueda de datos, Directorios: Poniendole nombre a los datos, Sistemas de archivos Alternativos.
 
 #Bibliografía#
+*ANDERSON, Thomas; DAHLIN, Michael. **Operating Systems: Principles and Practice**. Recursive books, 2012.
 
+*ARPACI-DUSSEAU, Remzi H.; ARPACI-DUSSEAU, Andrea C. **Operating systems: Three easy pieces**. Arpaci-Dusseau, 2015.
 
+*TANENBAUM, Andrew S.; BOS, Herbert. **Modern operating systems** . Prentice Hall Press, 2014.
+
+*STALLINGS, William; PAUL, Goutam Kumar. **Operating systems: internals and design principles** . Upper Saddle River, NJ: prentice hall, 2015.
 #Régimen de Cursada#
 
 
