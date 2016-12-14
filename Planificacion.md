@@ -1,6 +1,6 @@
 #Objetivos#
 
-** Objetivos generales: **
+**Objetivos generales:**
 
 
 -Conocer, estudiar y describir los objetivos, servicios, mecanismos y funciones de un sistema operativo moderno. Estos se dividen en 4 bloques fundamentales:
@@ -19,7 +19,7 @@
 
 -Conocer, utilizar e implementar las herramientas más comunes que proveen los sistemas operativos modernos.
 
-** Objetivos Particulares: **
+**Objetivos Particulares:**
 
 -Conocer, estudiar y utilizar los algoritmos y estructuras de datos más utilizados en la contrucción de sistemas operativos modernos.
 
