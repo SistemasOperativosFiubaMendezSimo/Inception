@@ -59,13 +59,14 @@ Memoria Física. La Abstracción del Espacio de Memoria. El API de Memoria. El C
 **Unidad 5:**
 
 
-Introducción al Concepto de Concurrencia. El Concepto de Thread. La Abstracción de Threads. El API de Threads. Creación de threads. Un Thread por dentro. Detalles de Implementación. I/O Asincrónica y programación dirigida por eventos. Locks:Idea Básica. Estructuras de Datos basadas en Locks. Sincronización del Acceso a Objetos Compartidos. Objetos Compartidos y Sincronización de Variables. Condition variables. Exclusión Mútua. Semaforos. Problemas Comunes de Concurrencia. Implementación de sincronización de objetos. Diseño e implementaciòn de objetos compartidos. Sincronización multi-objeto. Deadlock. Enfoques alternativos de sincronización.
+
+Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
+
 
 
 **Unidad 6:**
 
-
-Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
+Introducción al Concepto de Concurrencia. El Concepto de Thread. La Abstracción de Threads. El API de Threads. Creación de threads. Un Thread por dentro. Detalles de Implementación. I/O Asincrónica y programación dirigida por eventos. Locks:Idea Básica. Estructuras de Datos basadas en Locks. Sincronización del Acceso a Objetos Compartidos. Objetos Compartidos y Sincronización de Variables. Condition variables. Exclusión Mútua. Semaforos. Problemas Comunes de Concurrencia. Implementación de sincronización de objetos. Diseño e implementaciòn de objetos compartidos. Sincronización multi-objeto. Deadlock. Enfoques alternativos de sincronización.
 
 **Unidad 7:**
 
@@ -108,25 +109,22 @@ establecido), método de desarrollo (aplicación de método de desarrollo)
 
 
 
-
-
-
-
 #Calendario de Clases#
 
-Semana       | Temas Teoria            | Temas Prácica
------------- | -------------           | -------------
- 10/3        |  Introducción.          |
- 17/3        |Kernel                   |
- 24/3        |Procesos                 |
- 31/3        |                |
- 7/7         |                |
- 14/7        |                |
- 21/4        |                |
- 28/4        |                |
- 5/5         |                |
- 12/5        |                |
- 19/5        |                |
+Semana       | Temas Teoria                           | Temas Prácica
+------------ | -------------                          | -------------
+ 10/3        |  Introducción.                         |
+ 17/3        |La abstracción Kernel                   |
+ 24/3        |La abstracción de Proceso               | El Api de Procesos
+ 31/3        | Introduccion a la Planificacion        |
+ 7/7         | La Abstracción del Espacio de Memoria  |    El API de Memoria 
+ 14/7        | El Concepto de Espacio de Direcciones  |Paginación. Algoritmos de Paginación
+ 21/4        | Segmentación. Memoria Caché.           |
+             | El Concepto de Cache.                  |
+ 28/4        | Introducción al Concepto de Concurrencia. El Concepto de Thread               | El API de Threads. Creación de threads.
+ 5/5         |La Abstracción de Threads.                |Un Thread por dentro. Detalles de Implementación. 
+ 12/5        | Locks:Idea Básica. Estructuras de Datos basadas en Locks.               | Objetos Compartidos y Sincronización de Variables. Condition variables. Exclusión Mútua. Semaforos. 
+ 19/5        |Problemas Comunes de Concurrencia.                 |Sincronización multi-objeto. Deadlock.
  26/5        |                |
  9/6         |                |
  16/6        |                |
