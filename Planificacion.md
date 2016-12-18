@@ -111,31 +111,42 @@ establecido), método de desarrollo (aplicación de método de desarrollo)
 
 #Calendario de Clases#
 
-Semana         | Temas Teoria                           | Temas Prácica
+Semana         | Temas de  Teoria                       | Rresolucion de problemas
 ------------   | -------------                          | -------------
-Clase 1: 10/3  |  Introducción.                         |
+Clase 1: 10/3  |  Introducción                          |
 Clase 2: 17/3  |La abstracción Kernel                   |
-Clase 3: 24/3  |La abstracción de Proceso               | El Api de Procesos
-Clase 4: 31/3  | Introduccion a la Planificacion        |
-Clase 5: 7/7   | La Abstracción del Espacio de Memoria  |    El API de Memoria 
+Clase 3: 24/3  |La abstracción de Proceso               |
+               |El Api de Procesos                      |
+Clase 4: 31/3  | La Abstracción del Espacio de Memoria  |
+Clase 5: 7/7   | El API de Memoria                      |
 Clase 6: 14/7  |Introducción a la Planificación.        | 
                |Planificación Uniprocesador.            |
                |Planificación Multiprocesador.          |
                |Planificación Energy-aware.             |
-               |Planificación de Tiempo Real.           | Teoria de Colas. Caso de estudio
-Clase 7: 21/4  | El Concepto de Espacio de Direcciones   |Paginación. Algoritmos de Paginación
-               | Segmentación. Memoria Caché.            | El Concepto de Cache.
-Clase 8: 28/4  | Introducción al Concepto de Concurrencia| El API de Threads. Creación de threads. 
+               |Planificación de Tiempo Real.           | 
+               |Teoria de Colas. Caso de estudio         |
+Clase 7: 21/4  | El Concepto de Espacio de Direcciones   |
+               | Paginación. Algoritmos de Paginación      |
+               | Segmentación. Memoria Caché.            |
+               |El Concepto de Cache.                    |  
+Clase 8: 28/4  | Introducción al Concepto de Concurrencia|
+               |El API de Threads. Creación de threads.  |
                |El Concepto de Thread                    |
-Clase 9: 5/5   |La Abstracción de Threads.               |Un Thread por dentro. Detalles de Implementación. 
-Clase 10: 12/5 | Locks:Idea Básica.                      | Objetos Compartidos y Sincronización de Variables. 
-               |Estructuras de Datos basadas en Locks.   | Condition variables. Exclusión Mútua. Semaforos.      
-Clase 11: 19/5 |Problemas Comunes de Concurrencia.       |Sincronización multi-objeto. Deadlock.
-Clase 12: 26/5 |La abstracción del Sistema de Archivos   |El API del Sistema de Archivos
+Clase 9: 5/5   |La Abstracción de Threads.               |
+               |Un Thread por dentro. Detalles de Implementación. | 
+Clase 10: 12/5 | Locks:Idea Básica.                      | 
+               |Objetos Compartidos y Sincronización de Variables. | 
+               |Estructuras de Datos basadas en Locks.   |
+               |Condition variables. Exclusión Mútua. Semaforos. |
+Clase 11: 19/5 |Problemas Comunes de Concurrencia.       |
+               |Sincronización multi-objeto. Deadlock.   |
+Clase 12: 26/5 |La abstracción del Sistema de Archivos   |
+               |El API del Sistema de Archivos           | 
 Clase 13: 9/6  |Sistemas de Archivos. Archivos. Directorios| 
-Clase 14: 16/6 |1er Parcial          |  FFS. Sistemas de archivos Alternativos.
-Clase 15: 23/6 |Segutidad            | Sistemas Distribuidos
-Clase 16: 30/6 | 1er Recuperatorio   |
+Clase 14: 16/6 |                              | 1er Parcial  
+Clase 15: 23/6 |Segutidad                     |
+               | Sistemas Distribuidos        |  
+Clase 16: 30/6 |             | 1er Recuperatorio del Parcial
  
  
 
