@@ -53,15 +53,13 @@ El API de Procesos. Gestión de Procesos. Input/Output. Caso de Estudio: Impleme
 **Unidad 4:**
 
 
-Memoria Física. La Abstracción del Espacio de Memoria. El API de Memoria. El Concepto de Espacio de Direcciones. Paginación. Algoritmos de Paginación. Segmentación. Administración de Espacio Libre de Memoria.  Software address translation.  Memoria Caché. El Concepto de Cache. Gestión de memoria Cache. Memoria Virtual VAX / VMS.
+Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
 
 
 **Unidad 5:**
 
 
-
-Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
-
+Memoria Física. La Abstracción del Espacio de Memoria. El API de Memoria. El Concepto de Espacio de Direcciones. Paginación. Algoritmos de Paginación. Segmentación. Administración de Espacio Libre de Memoria.  Software address translation.  Memoria Caché. El Concepto de Cache. Gestión de memoria Cache. Memoria Virtual VAX / VMS.
 
 
 **Unidad 6:**
