@@ -75,8 +75,7 @@ Introducción a los Sistemas de Archivos. La abstracción del Sistema de Archivo
 **Unidad 8:**
 
 
-Seguridad. Sistemas Distribuidos. 
-
+Seguridad. Sistemas Distribuidos. Sistemas Operativos Móviles. Sistemas Operativos de Tiempo Real.
 
 #Bibliografía#
 *ANDERSON, Thomas; DAHLIN, Michael. **Operating Systems: Principles and Practice**. Recursive books, 2012.
