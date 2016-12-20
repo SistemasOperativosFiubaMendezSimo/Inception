@@ -1,67 +1,75 @@
 ---
 lang: es
+title: Sistemas Operativos
+author: Facultad de Ingeniería, Universidad de Buenos Aires
+date: Primer cuatrimestre de 2017
+linkcolor: black
+urlcolor: blue
+links-as-notes: false
+header-includes: |
+  \usepackage{draftwatermark}
+  \SetWatermarkText{\textsc{Borrador}}
+  \SetWatermarkColor[gray]{0.925}
 ---
+
+# Resumen #
+
+En la materia se estudia en detalle tres pilares fundamentales de los sistemas operativos:
+
+  1. _compartición_ de recursos (procesador y memoria)
+
+  2. acceso _concurrente_ (a recursos y datos)
+
+  3. almacenamiento _persistente_ (de datos de usuario)
+
+así como las abstracciones y conceptos subyacentes.
+
+En los trabajos prácticos se ejercita tanto la implementación de dichas abstracciones como su uso a través de una interfaz de programación estándar.
+
 
 # Objetivos #
 
-**Objetivos generales**
+Los objetivos se entroncan en torno a la idea del sistema operativo como _proveedor de servicios;_ así:
 
-- Conocer, estudiar y describir los objetivos, servicios, mecanismos y funciones de un sistema operativo moderno. Estos se dividen en 4 bloques fundamentales:
+- Saber describir los servicios y funciones de un sistema operativo moderno.
 
-    1. Kernel y procesos.
+- Conocer las abstracciones y detalles de implementación de dichos servicios, así como los algoritmos y estructuras asociados.
 
-    2. Administración de memoria.
+- Escribir programas que hagan uso de los servicios del sistema operativo a través de su interfaz de programación estándar.
 
-    3. Concurrencia.
-
-    4. Persistencia.
-
-- Obtener las habilidades necesarias para programar a nivel kernel mediante la ejercitación sobre un sistema operativo concreto.
-
-- Conocer, estudiar y describir otros conceptos relacionados con los sistemas operativos modernos (seguridad, tolerancia a fallos, tiempo real y evaluación de performance, etc.)
-
-- Conocer, utilizar e implementar las herramientas más comunes que proveen los sistemas operativos modernos.
+- Implementar, sobre el núcleo de un sistema operativo existente, uno o más de estos servicios.
 
 
-**Objetivos particulares**
+# Contenidos mínimos #
 
-- Conocer, estudiar y utilizar los algoritmos y estructuras de datos más utilizados en la contrucción de sistemas operativos modernos.
-
-
-- Conocer, comprender y aplicar las soluciones que normalmente se aplican a los problemas que se presentan en un sistema operativo moderno.
+Funciones del sistema operativo. Procesos: creación y planificación. Espacio de direcciones; manejo de asignaciones; paginación. Hilos de ejecución y primitivas de sincronización. Organización de un sistema de archivos.
 
 
-# Contenidos mímimos #
-
-Kernel y procesos. Administración de memoria. Concurrencia. Persistencia.
-
-
-# Programa sintético #
-
-Núcleos (kernels) y procesos. La abstracción del núcleo (kernel). La interfase de programación. Administracion de memoria. Memoria real, memoria virtual y memoria caché. Aplicaciones de administración de memoria. Concurrencia y threads. Sincronización de acceso a objetos compartidos. Algoritmos de scheduling. Sistemas de archivos. Dispositivos de almacenamiento. Archivos y directorios.
-
-
-# Programa Analítico #
+# Programa analítico #
 
 **Unidad 1**
 
-Introducción. Qué es un Sistema Operativo. Criterios de Evaluación de un Sistema Operativo. Historia de los Sistemas Operativos. Tipos de Sistemas Operativos.
+Sistemas operativos: propósito, funcionalidad y servicios. Historia breve y tipos. Separación de privilegios: ejecución del núcleo _(kernel)_ frente a código de usuario. Llamadas al kernel _(syscalls)_ como interfaz de acceso a servicios. Biblioteca del sistema y estándar POSIX.
 
 **Unidad 2**
 
-La abstracciòn del Kernel. El concepto de Proceso. La abstracción del Proceso. Estados de un Proceso. Estruturas de datos. Modo de Operación dual. Transferencia de control segura. Caso de estudio: Booteando un kernel de un sistema operativo. Caso de Estudio: Maquinas Virtuales.
+Compartición de procesador y memoria: el proceso como unidad de virtualización. Creación de procesos: paso de un archivo ejecutable a una instancia de proceso. Datos y estados de un proceso. Salto entre ejecución privilegiada _(kernel-space)_ y ejecución en nombre de un ususario _(user-space)_. Salto entre procesos de usuario.
+
+Caso de estudio y práctica: intérprete de comandos _(shell)_ en un entorno POSIX.
 
 **Unidad 3**
 
-El API de Procesos. Gestión de Procesos. Input/Output. Caso de Estudio: Implemención de un shell. Caso de Estudio: Comunicación Interproceso. Estructura de un sistema Operativo.
+Espacios de direccionamiento y traducción de direcciones. Soporte hardware para traducción de direcciones. Paginación y TLB _(translation lookaside buffers)_. Caché, jerarquías de memoria y políticas de reemplazo.
+
+Caso de estudio y práctica: manejador de memoria en espacio de usuario sobre la llamada al sistema _sbrk_.
 
 **Unidad 4**
 
-Memoria Física. La Abstracción del Espacio de Memoria. El API de Memoria. El Concepto de Espacio de Direcciones. Paginación. Algoritmos de Paginación. Segmentación. Administración de Espacio Libre de Memoria.  Software address translation.  Memoria Caché. El Concepto de Cache. Gestión de memoria Cache. Memoria Virtual VAX / VMS.
+Planificación de procesos _(scheduling):_ orden de acceso al procesador. Estrategias básicas de planificación: _first-in first-out_ (FIFO), _shortest job first_ (SJF) y _shortest time-to-completion first_ (STCF); _round robin_ (RR) mediante tiempo de respuesta. Estrategias de repartición justas _(fair-share scheduling)_. Introducción a la planificación multi-procesador.
+
+Caso de estudio y práctica: _schedulers_ en Linux.
 
 **Unidad 5**
-
-Introducción a la Planificación. Planificación Uniprocesador. Planificación Multiprocesador. Planificación Energy-aware. Planificación de Tiempo Real. Teoria de Colas. Caso de estudio.
 
 **Unidad 6**
 
@@ -78,9 +86,18 @@ Seguridad. Sistemas Distribuidos. Sistemas Operativos Móviles. Sistemas Operati
 
 # Bibliografía #
 
-- Anderson, Thomas; Dahlin, Michael: _Operating Systems: Principles and Practice_, Recursive Books (2.ª ed., 2012).
 
-- Arpaci-Dusseau, Remzi H.; Arpaci-Dusseau, Andrea C.: _Operating Systems: Three Easy Pieces_, Arpaci-Dusseau Books (v0.91, 2015).
+# Cronograma #
+
+
+# Calendario de evaluaciones #
+
+
+# Bibliografía #
+
+- Anderson, T. y Dahlin, M.: _Operating Systems: Principles and Practice_ (2.ª ed.), Recursive Books (2014).
+
+- Arpaci-Dusseau, R. H. y Arpaci-Dusseau, A. C.: _Operating Systems: Three Easy Pieces_ (v0.91), Arpaci-Dusseau Books (2015). [Disponible en línea en [ostep.org](http://ostep.org).]
 
 
 # Régimen de cursada #
